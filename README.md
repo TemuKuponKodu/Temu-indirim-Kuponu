@@ -1,6 +1,4 @@
-from pathlib import Path
-
- """# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
+# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
 
 <p align="center">
   <img src="temu referans kodu.jpg" alt="Temu Referans Kodu: acs646908" width="300"/>
@@ -43,10 +41,3 @@ Temu, geniş ürün yelpazesi, uygun fiyatlar ve kampanyalarıyla dikkat çeken 
 ---
 
 💡 **İlk siparişini indirimli ver, avantajları kaçırma!**
-"""
-
-# Dosyayı kaydet
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content, encoding="utf-8")
-
-readme_path
