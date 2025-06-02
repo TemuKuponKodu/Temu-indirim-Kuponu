@@ -1,7 +1,6 @@
 from pathlib import Path
 
-# README.md içeriği
-readme_content = """# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
+ """# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
 
 <p align="center">
   <img src="temu referans kodu.jpg" alt="Temu Referans Kodu: acs646908" width="300"/>
