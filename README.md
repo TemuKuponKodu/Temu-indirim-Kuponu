@@ -1,4 +1,11 @@
-# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
+from pathlib import Path
+
+# README.md içeriği
+readme_content = """# 🎁 Temu %30 İndirim + 2.000 TL Kupon Paketi
+
+<p align="center">
+  <img src="temu referans kodu.jpg" alt="Temu Referans Kodu: acs646908" width="300"/>
+</p>
 
 Temu’da ilk alışverişin için harika bir fırsat seni bekliyor!  
 Aşağıdaki adımları izleyerek **%30 indirim** kazanabilir ve ayrıca **2.000 TL değerinde kupon paketine** sahip olabilirsin.
@@ -37,3 +44,10 @@ Temu, geniş ürün yelpazesi, uygun fiyatlar ve kampanyalarıyla dikkat çeken 
 ---
 
 💡 **İlk siparişini indirimli ver, avantajları kaçırma!**
+"""
+
+# Dosyayı kaydet
+readme_path = Path("/mnt/data/README.md")
+readme_path.write_text(readme_content, encoding="utf-8")
+
+readme_path
